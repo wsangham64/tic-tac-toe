@@ -1,0 +1,24 @@
+.box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(143, 141, 141);
+  color: black;
+  font-size: 25px;
+  font-weight: bolder;
+  width: 50px;
+  transition: .2s ease-in;
+}
+.box:hover{
+  background-color: rgb(77, 75, 75);
+  
+}
+.activ{
+ background-color: red;
+}
+.grid{
+  display: grid;
+  grid-template-columns: 0fr 0fr 0fr;
+  grid-gap: 5px;
+  color: yellow;
+}
